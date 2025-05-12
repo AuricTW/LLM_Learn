@@ -5,11 +5,11 @@ pyaudio==0.2.14          # 或安裝對應作業系統的 binary wheel
 PySocks==1.7.1           # 對應 import socks
 websocket-client==1.7.0
 
-''
+'''
 | 錯誤訊息                                                | 可能原因                    | 解法                                    |
 | --------------------------------------------------- | ----------------------- | ------------------------------------- |
 | `No module named 'pyaudio'`                         | 未安裝 PyAudio 或 PortAudio | 先安裝 PortAudio，再 `pip install pyaudio` |
 | `mysql.connector.Error: …`                          | DB 參數錯誤 / 權限不足          | 檢查 `DB_CONFIG`、MySQL 使用者權限            |
 | `ImportError: cannot import name 'socksocket'`      | 未安裝 PySocks             | `pip install PySocks`                 |
 | `websocket._exceptions.WebSocketBadStatusException` | API Key 失效 / 模型名稱錯誤     | 確認 `OPENAI_API_KEY`、`WS_URL`          |
-''
+'''
