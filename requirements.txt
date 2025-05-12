@@ -4,6 +4,7 @@ mysql-connector-python==9.0.0
 pyaudio==0.2.14          # 或安裝對應作業系統的 binary wheel
 PySocks==1.7.1           # 對應 import socks
 websocket-client==1.7.0
+python-dotenv==0.19.0
 
 
 # ----------------------------
